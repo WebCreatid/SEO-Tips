@@ -5,7 +5,7 @@ To read and more understand your seo title tags structure
 
 2. Copy and paste the lines below on css stylesheet
 
-    `h1:after {
+h1:after {
     content: 'h1';
     display: block;
     color: red;
@@ -60,6 +60,6 @@ h4:after {
     line-height: 12px;
     background: #ffd8fd;
     padding: 10px 9px;
-}`
+}
 
 3. Enjoy.
