@@ -1,0 +1,65 @@
+**Show H tags**
+To read and more understand your seo title tags structure
+
+1. Open the inspector (Developer Tools)
+
+2. Copy and paste the lines below on css stylesheet
+
+    `h1:after {
+    content: 'h1';
+    display: block;
+    color: red;
+    text-transform: lowercase;
+    display: inline-block;
+    margin-left: 15px;
+    border: 1px red dashed;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 12px;
+    background: #ffd8d8;
+    padding: 10px 9px;
+}
+h2:after {
+    content: 'h2';
+    display: block;
+    color: green;
+    text-transform: lowercase;
+    display: inline-block;
+    margin-left: 15px;
+    border: 1px green dashed;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 12px;
+    background: #d8fff7;
+    padding: 10px 9px;
+}
+h3:after {
+    content: 'h3';
+    display: block;
+    color: blue;
+    text-transform: lowercase;
+    display: inline-block;
+    margin-left: 15px;
+    border: 1px blue dashed;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 12px;
+    background: #d8e1ff;
+    padding: 10px 9px;
+}
+h4:after {
+    content: 'h4';
+    display: block;
+    color: purple;
+    text-transform: lowercase;
+    display: inline-block;
+    margin-left: 15px;
+    border: 1px purple dashed;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 12px;
+    background: #ffd8fd;
+    padding: 10px 9px;
+}`
+
+3. Enjoy.
